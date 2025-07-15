@@ -9,7 +9,7 @@ This project benchmarks the performance difference between **platform threads** 
 - CSV is written on each request
 
 ## Load test with Apache Benchmark
-Example: ab -n 5000 -c 500 http://localhost:8080/virtual-generate-report
+Example: ab -n 300 -c 100 http://localhost:8080/virtual-generate-report
 
 ## Goal
 Trying to understand why virtual threads sometimes perform worse, especially with I/O operations (DB + File).
